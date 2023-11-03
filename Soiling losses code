@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    //cout<<"Enter level of soiling deposited in % / day";
+    int in;
+    cin>>in;
+   /*
+    double clean_panel_efficiency = 0.18; // Efficiency of a clean solar panel
+    double soiling_rate = 0.002; // Soiling rate per day
+    int days = 365; // Number of days
+
+    // Initialize variables
+    double efficiency[days];
+    efficiency[0] = clean_panel_efficiency;
+
+    // Simulate soiling over time
+    for (int day = 1; day < days; day++) {
+        efficiency[day] = efficiency[day - 1] * (1 - soiling_rate);
+    }
+
+    // Calculate soiling losses
+    double soiling_losses[days];
+    for (int day = 0; day < days; day++) {
+        soiling_losses[day] = clean_panel_efficiency - efficiency[day];
+    }
+
+    // Print results
+    for (int day = 0; day < days; day++) {
+        printf("Day %d: Soiling Losses = %f\n", day + 1, soiling_losses[day]);
+    }
+    */
+
+    if(in<40) {
+        cout<<"Solar panel is in good condition ";
+    }
+    else {
+        cout<<"Solar panel needs maintenance ";
+    }
+}

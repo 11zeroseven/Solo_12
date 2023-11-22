@@ -18,12 +18,11 @@ int main() {
     P_soiled=P_clean-Soiling_Loss;
     float output_efficiency;
     output_efficiency=(P_soiled/P_clean)*100;
-    //cout<<"\n";
     if(output_efficiency>5) {
-        cout<<output_efficiency<<" "<<"Requires maintenance ";
+        cout<<"Output efficiency is "<<output_efficiency<<" %"<<'\n'<<"Since the output efficiency is greater than 5%  therefore it Requires maintenance";
     }
     else {
-        cout<<output_efficiency<<" "<<"Does not require maintenance ";
+        cout<<"Output efficiency is "<<output_efficiency<<" %"<<'\n'<<"Since the output efficiency is less than 5% therefore it Does not require maintenance";
     }
     return 0;
 
